@@ -1,0 +1,22 @@
+.show:hover + .list-categories{
+  max-height: inherit;
+  opacity: 1;
+}
+
+.list-categories{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  max-height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 300ms ease;
+}
+<div class="show">show div</div>
+<ul class="list-categories">
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
